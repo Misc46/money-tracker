@@ -1,6 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
 
 :root {
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-card: #0f172a;
+  --bg-card-hover: #1e293b;
+  --bg-input: #0f172a;
+  --border-color: #1e293b;
+  --border-focus: #38bdf8;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --accent: #38bdf8;
+  --accent-hover: #7dd3fc;
+  --income: #10b981;
+  --income-bg: rgba(16, 185, 129, 0.1);
+  --income-border: rgba(16, 185, 129, 0.2);
+  --expense: #f43f5e;
+  --expense-bg: rgba(244, 63, 94, 0.1);
+  --expense-border: rgba(244, 63, 94, 0.2);
+  --saved: #f59e0b;
+  --saved-bg: rgba(245, 158, 11, 0.1);
+  --saved-border: rgba(245, 158, 11, 0.2);
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --transition: 150ms ease;
+}
+
+[data-theme='light'] {
   --bg-primary: #ffffff;
   --bg-secondary: #f9fafb;
   --bg-card: #ffffff;
@@ -24,10 +54,6 @@
   --saved-border: #fbbf24;
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --radius-sm: 6px;
-  --radius-md: 8px;
-  --radius-lg: 12px;
-  --transition: 150ms ease;
 }
 
 [data-theme='dark'] {

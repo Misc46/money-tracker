@@ -17,7 +17,7 @@ function formatCurrency(value: number): string {
     style: "currency",
     currency: "IDR",
     minimumFractionDigits: 0,
-    maximumFractionDigits: 0,
+    maximumFractionDigits: 2,
   }).format(value);
 }
 
@@ -297,7 +297,7 @@ export default function Home() {
                 id="field-amount"
                 type="number"
                 min="0"
-                step="1000"
+                step="any"
                 placeholder="0"
                 value={form.amount}
                 onChange={(e) => setForm({ ...form, amount: e.target.value })}
